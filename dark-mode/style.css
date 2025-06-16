@@ -88,7 +88,7 @@ body {
 
 .subtitle {
   font-size: 14px;
-  font-weight: 400;
+  font-weight: 300;
   color: var(--text-light);
   padding-bottom: 36px;
 }
@@ -316,8 +316,8 @@ body {
 }
 .contact-support-link {
   font-size: 9px;
-  font-weight: 500;
-  color: var(--color-white);
+  font-weight: 300;
+  color:  #fff;
   text-align: center;
   margin-bottom: 26.5px;
 }
@@ -344,7 +344,7 @@ body {
 }
 .small-text-15 {
   font-size: 9px;
-  font-weight: 300;
+  font-weight: 200;
   color: var(--text-light);
   line-height: 15px;
   margin-bottom: 19.5px;
@@ -354,6 +354,7 @@ body {
   color: var(--text-light);
   margin-top: 23px;
   margin-bottom: 153px;
+  font-weight: 200;
 }
 .small-text-bold span {
   font-weight: bold;
@@ -471,19 +472,19 @@ body {
   font-size: 11px;
   color: var(--color-white);
   margin-bottom: 16px;
-  font-weight: 300;
+  font-weight: 200;
 }
 
 .whats-new-header {
   font-size: 11px;
   color: var(--color-white);
   margin-bottom: 16px;
-  font-weight: 600;
+  font-weight: 200;
 }
 .whats-new-list {
   font-size: 11px;
   color: var(--color-white);
-  font-weight: 300;
+  font-weight: 200;
   list-style-position: inside;
 }
 .card-description .bold {
@@ -517,7 +518,7 @@ body {
 }
 .card-no-center2 .msg-overview {
   font-size: 11px;
-  font-weight: 500;
+  font-weight: 300;
   color: var(--text-light);
 }
 .card-no-center2 .msg-overview a {
@@ -540,8 +541,8 @@ body {
 
 .muted-discription-box {
   color: var(--text-light);
-  font-size: 11px;
-  font-weight: 300;
+  font-size: 12px;
+  font-weight: 200;
   display: flex;
   flex-direction: column;
   gap: 19px;
@@ -896,7 +897,7 @@ body {
   border-radius: 8px;
   position: relative;
 }
-.card-content.bg{
+.card-content.bg {
   background-color: #101010;
 }
 .card-header {
@@ -1004,14 +1005,18 @@ body {
 .card-trade-container {
   display: flex;
   align-items: center;
-  height: 24px;
-  min-height: 20px;
+  height: 20px;
+  min-height: 18px;
   background-color: rgba(217, 217, 217, 0.1);
   border-radius: 4px;
   padding-right: 12px;
 }
+.chart-23 {
+  width: 50%;
+  padding: 0px 10px 0px 0px;
+}
 .chart-23 img {
-  width: 110px;
+  width: 100%;
 }
 .trade-card-cons {
   display: flex;
@@ -1019,25 +1024,25 @@ body {
   gap: 4px;
 }
 .card-trade-indicator {
-  width: 3px;
+  width: 2px;
   height: 100%;
   border-radius: 12px;
   background: linear-gradient(to bottom, #ff4e00, #ffcc00);
 }
 .card-trade-indicator-2 {
-  width: 3px;
+  width: 2px;
   height: 100%;
   border-radius: 12px;
   background: linear-gradient(to bottom, #00fe95, #01fd4a);
 }
 .card-trade-indicator-3 {
-  width: 3px;
+  width: 2px;
   height: 100%;
   border-radius: 12px;
   background: linear-gradient(to bottom, #bf01b7, #fc0172);
 }
 .card-trade-indicator-4 {
-  width: 3px;
+  width: 2px;
   height: 100%;
   border-radius: 12px;
   background: linear-gradient(to bottom, #d9ff00, #d9ff00);
@@ -1059,8 +1064,9 @@ body {
 }
 .card-outcome-sm {
   color: white;
-  font-size: 8px;
+  font-size: 7px;
   margin: 0;
+  font-weight: 600;
 }
 .probability-con {
   display: flex;
@@ -1069,7 +1075,7 @@ body {
 }
 .card-probability {
   color: white;
-  font-size: 10px;
+  font-size: 8px;
   font-weight: bold;
   margin: 0;
 }
@@ -1092,7 +1098,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 16px 20px;
+  padding: 0 16px 10px;
   gap: 8px;
 }
 
@@ -1106,9 +1112,10 @@ body {
 }
 
 .card-stat-label {
-  color: #9ca3af;
+  color: #fff;
   font-size: 6px;
-  margin: 0;
+  margin-bottom: 5px;
+
 }
 
 .card-stat-value {
